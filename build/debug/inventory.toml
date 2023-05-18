@@ -1,9 +1,0 @@
-lib = true
-files = [
-"/home/gameforabit/Documents/ApexCore/lib/ApexCore.cpp",
-"/home/gameforabit/Documents/ApexCore/lib/Globals.cpp",
-"/home/gameforabit/Documents/ApexCore/lib/Graphics/Color.cpp",
-"/home/gameforabit/Documents/ApexCore/lib/glad.cpp",
-"/home/gameforabit/Documents/ApexCore/tests/Log.cpp",
-"/home/gameforabit/Documents/ApexCore/tests/window_creation.cpp",
-]
