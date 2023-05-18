@@ -1,0 +1,8 @@
+[package]
+name = "ApexCore"
+version = "0.1.0"
+std = 17
+
+[dependencies]
+rapidjson = "1.1.0"
+glfw = "3.3.8"
