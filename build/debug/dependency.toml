@@ -1,0 +1,55 @@
+
+[xorg]
+components = [
+"xorg::sm","xorg::uuid","xorg::xcb-cursor","xorg::xcb-dri3",
+"xorg::xcb-util","xorg::xcb-event","xorg::xcb-aux",
+"xorg::xcb-atom","xorg::xcb","xorg::xcb-xinerama",
+"xorg::xcb-xfixes","xorg::xcb-sync","xorg::xcb-shm",
+"xorg::xcb-shape","xorg::xcb-renderutil","xorg::xcb-render",
+"xorg::xcb-randr","xorg::xcb-keysyms","xorg::xcb-image",
+"xorg::xcb-icccm","xorg::xcb-xkb","xorg::xxf86vm","xorg::xvmc",
+"xorg::xv","xorg::xtst","xorg::xt","xorg::xscrnsaver",
+"xorg::xres","xorg::xrender","xorg::xrandr","xorg::xpm",
+"xorg::xmuu","xorg::xmu","xorg::xkbfile","xorg::xinerama",
+"xorg::xi","xorg::xfixes","xorg::xext","xorg::xdmcp",
+"xorg::xdamage","xorg::xcursor","xorg::xcomposite","xorg::xaw7",
+"xorg::xau","xorg::ice","xorg::fontenc","xorg::x11-xcb",
+"xorg::x11",
+]
+cmake_target = "xorg::xorg"
+cmake_package = "xorg"
+package = "xorg"
+
+[rapidjson]
+components = []
+cmake_target = "rapidjson"
+cmake_package = "RapidJSON"
+package = "rapidjson"
+
+[opengl]
+components = []
+cmake_target = "opengl::opengl"
+cmake_package = "opengl_system"
+package = "opengl"
+
+[gtest]
+components = [
+"GTest::gmock_main","GTest::gmock","GTest::gtest_main",
+"GTest::gtest",
+]
+cmake_target = "gtest::gtest"
+cmake_package = "GTest"
+package = "gtest"
+
+[glfw]
+components = []
+cmake_target = "glfw"
+cmake_package = "glfw3"
+package = "glfw"
+
+[benchmark]
+components = ["benchmark::benchmark_main","benchmark::benchmark"]
+cmake_target = "benchmark::benchmark_main"
+cmake_package = "benchmark"
+package = "benchmark"
+

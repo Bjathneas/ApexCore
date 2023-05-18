@@ -1,0 +1,2 @@
+/usr/bin/ar qc libApexCore.a CMakeFiles/ApexCore_lib.dir/home/gameforabit/Documents/ApexCore/lib/ApexCore.cpp.o CMakeFiles/ApexCore_lib.dir/home/gameforabit/Documents/ApexCore/lib/Globals.cpp.o CMakeFiles/ApexCore_lib.dir/home/gameforabit/Documents/ApexCore/lib/Graphics/Color.cpp.o CMakeFiles/ApexCore_lib.dir/home/gameforabit/Documents/ApexCore/lib/glad.cpp.o
+/usr/bin/ranlib libApexCore.a
